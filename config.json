@@ -1,0 +1,24 @@
+{
+    "database":
+    {
+        "host":"localhost",
+        "database":"digitalskola",
+        "user":"postgres",
+        "password":"admin",
+        "port":2022
+    },
+    
+    "warehouse":
+    {
+        "host":"localhost",
+        "database":"dwh_digitalskola",
+        "user":"postgres",
+        "password":"admin",
+        "port":2022
+    },
+
+    "hadoop":
+    {
+        "client":"http://localhost:9870"
+    }
+}
